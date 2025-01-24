@@ -87,6 +87,7 @@ body {
   grid-column: 4/5;
   grid-row: 2;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .hero-section h2,
@@ -123,6 +124,7 @@ button {
   color: var(--secondary-color);
   font-size: 0.9em;
   transition: all 0.3s ease;
+  display: inline-block;
 }
 
 .icons a {
