@@ -7,6 +7,10 @@
   --line: #c4421a;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* reset */
 body,
 p,
@@ -57,7 +61,6 @@ body {
   padding: 10px;
   overflow-x: hidden;
   font-family: "Poppins", serif;
-  scroll-behavior: smooth;
 }
 
 /* Mobile styles */
@@ -216,6 +219,60 @@ span {
 }
 .content-item span .discribe {
   font-size: 12px;
+}
+.projects {
+  grid-column: 4/5;
+  grid-row: 5;
+  margin-bottom: 50px;
+}
+
+.projects img {
+  border-radius: 20px;
+}
+.projects p {
+  font-size: 1em;
+}
+
+.projects .cards {
+  border: 1px solid var(--secondary-color);
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.projects .cards p {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.projects > .cards > a.project-btn {
+  color: var(--secondary-color);
+}
+
+.contact {
+  grid-column: 4/5;
+  grid-row: 6;
+  text-align: center;
+  justify-content: center;
+}
+
+.contact p {
+  font-size: 1em;
+}
+
+.contact-info {
+  border: 1px solid var(--secondary-color);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.contact-info a,
+i {
+  font-size: 1.1em;
+  padding: 2px;
+}
+
+.contact-info i {
+  background-color: aliceblue;
 }
 
 /* Tablets (Min-width: 768px) */
