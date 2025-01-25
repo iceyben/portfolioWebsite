@@ -263,6 +263,7 @@ span {
   border: 1px solid var(--secondary-color);
   border-radius: 20px;
   padding: 10px;
+  margin-bottom: 60px;
 }
 
 .contact-info a,
@@ -273,6 +274,21 @@ i {
 
 .contact-info i {
   background-color: aliceblue;
+}
+
+.nav-footer ul {
+  margin-bottom: 50px;
+}
+
+.nav-footer ul li {
+  margin-bottom: 20px;
+}
+
+.nav-footer a:hover{
+  text-decoration: underline;
+  text-decoration-color: var(--line);
+  text-transform: all .3s ease-in-out;
+  text-decoration-thickness: 2px;
 }
 
 /* Tablets (Min-width: 768px) */
