@@ -71,7 +71,8 @@ body {
 .site-nav {
   grid-column: 1/9;
   grid-row: 1;
-  background-color: antiquewhite;
+  /* background-color: white; */
+  
 }
 .site-nav {
   margin: 0 20px;
@@ -284,10 +285,10 @@ i {
   margin-bottom: 20px;
 }
 
-.nav-footer a:hover{
+.nav-footer a:hover {
   text-decoration: underline;
   text-decoration-color: var(--line);
-  text-transform: all .3s ease-in-out;
+  text-transform: all 0.3s ease-in-out;
   text-decoration-thickness: 2px;
 }
 
